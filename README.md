@@ -37,3 +37,6 @@ reminder system - remind users per their request
 `/shuffle`
 `/skip`
 `/skip to [song number]`
+
+**credit:** MikkiPastel, Yeasir-Hossain
+
