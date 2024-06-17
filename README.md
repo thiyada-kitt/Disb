@@ -6,24 +6,34 @@
 
 - Generates replies using ChatGPT official API
 - Send reminders when it's time to study as configured
-- Turn music on and off and access music across multiple platforms
+- Turn music on and off and access music on yt
  
 #### [1] Generates replies using ChatGPT official API
-
+Engage in natural language conversations with ChatGPT 
 #### [2] Send reminders when it's time to study as configured
-
-#### [3] Turn music on and off and access music across multiple platforms
-
-constraint! - In the preliminary reminder section It is configured only in the class schedule of the repository owner. change it to your own!!!
+reminder system - remind users per their request 
+#### [3] Turn music on and off and access music on yt
+ Enjoy a wide range of music from YouTube 
+ 
+**constraint!** - In the preliminary reminder section It is configured only in the class schedule of the repository owner. change it to your own!!!
 
 ---
 #### Setup project
-- Install the associated bot.py requirements.txt file `pip install -r requirements.txt`
-- Use your api key form [chatgpt](https://platform.openai.com/account/api-keys)
-- Getting session token Go to [here](https://chat.openai.com/api/auth/session) open console -> application -> cookies
-- Copy the session token value in __Secure-next-auth.session-token and paste it into `config.json` file
-- Creating a Discord bot [click](https://discord.com/developers/) and put token into the `config.json` file
+- Clone the repository
+- Cd discord-bot and Install Dependencies
+- Create a .env file in the project root and add your Discord Bot token: `BOT_TOKEN=""`
 - Invite bot to your server using the OAuth2 URL Generator
-- Runing the bot!
----
-#### Include all commands
+- Start the Bot: yarn dev-load or npm start or node index.js// to load register the commands and start the bot with nodemon
+- yarn dev or pm2 start index.js// to start the bot with nodemon
+
+#### Include all command!
+`/prompt [used for chatgpt]`
+`/play [song name or URL]`
+`/stop`
+`/pause`
+`/resume`
+`/info`
+`/quit`
+`/shuffle`
+`/skip`
+`/skip to [song number]`
