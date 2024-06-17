@@ -1,0 +1,38 @@
+{
+  "name": "music-bot",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Poryz",
+    "email": "pthiyada.kittiwithitkun@gmail.com"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon --exec babel-node  src/index.js",
+    "dev-load": "nodemon --exec babel-node src/index.js load",
+    "lint": "eslint src --ext js"
+  },
+  "dependencies": {
+    "@discord-player/extractor": "^4.4.5",
+    "@discordjs/opus": "^0.9.0",
+    "cors": "^2.8.5",
+    "discord-player": "^6.6.6",
+    "discord.js": "^14.14.1",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.0.0",
+    "socket.io": "^4.7.2",
+    "ytdl-core": "^4.11.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.2",
+    "@babel/eslint-parser": "^7.22.15",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.2",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.52.0",
+    "nodemon": "^3.0.1"
+  }
+}
