@@ -23,9 +23,8 @@ reminder system - remind users per their request
 - Cd discord-bot and Install Dependencies
 - Create a .env file in the project root and add your Discord Bot token: `BOT_TOKEN=""`
 - Invite bot to your server using the OAuth2 URL Generator
-- Start the Bot: yarn dev-load or npm start or node index.js// to load register the commands and start the bot with nodemon
-- yarn dev or pm2 start index.js// to start the bot with nodemon
-
+- Start the Bot
+  
 #### Include all command!
 `/prompt [used for chatgpt]`
 `/play [song name or URL]`
